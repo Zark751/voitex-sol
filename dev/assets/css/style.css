@@ -42578,10 +42578,10 @@ section#sec6 button.learn-more-blue.button-1 {
   color: rgba(54, 139, 255, 1);
 }
 section.wrapper-pbx.overflow-hidden.landing-pbx {
-  background-image: url('../img/voitex-images/pbx-2.png') !important;
+  background-image: url('../img/voitex-images/landing-pbx-header-2.png') !important;
   width: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 
       margin-bottom: 60px;
   }
@@ -42711,7 +42711,8 @@ object-fit: contain;
   /* maximize flexibility starts here  */
   .maximize-flexibility {
       padding: 100px 11px;
-      background-color: rgb(249 248 255);
+      background: #EEF5FF;
+
   }
   button.learn-more {
       background-color: rgba(235, 23, 129, 1);
@@ -42725,7 +42726,7 @@ object-fit: contain;
       margin: auto;
   }
   .purple-flexible.container {
-    background-color: rgba(229, 240, 255, 1);
+    background: #D3E6FF;
     color: black;
       padding: 50px 300px;
       text-align: center;
@@ -42738,7 +42739,7 @@ object-fit: contain;
   /* maximize flexibility ends here  */
   /* comprehensive container starts here */
   section#comprehensive-container {
-    background-image: url(../img/voitex-images/comprehensive-image.png);
+    background-image: url(../img/voitex-images/comprehensive-image-2.png);
     background-repeat: no-repeat;
     width: 100%;
     background-size: 100% 100%;
@@ -42792,6 +42793,13 @@ ul.comprehensive-list-2 p span {
   }
   /* comprehensive container ends here */
   /* phone systems start here  */
+  .learn-more-button-2{
+    background: rgba(21, 99, 175, 1);
+    color: white;
+    padding: 7px  30px ;
+    font-size: 14px;
+    border-radius: 10px;
+  }
   section#phone-system {
     padding: 100px 10px;
 }
@@ -42800,7 +42808,7 @@ p.intutive-portal {
     font-weight: 500;
 }
   .col-lg-6.phone-background {
-      background-color: rgba(249, 248, 255, 1);
+    background: rgba(238, 245, 255, 1);
       height: 100%;
       width: 500px;
       padding: 36px 16px 74px 1px;
@@ -42809,7 +42817,7 @@ p.intutive-portal {
       padding: 15px;
   }
   span.poly-para {
-      background-color: rgba(241, 240, 255, 1);
+    background: rgba(211, 230, 255, 1);
       padding: 10px;
       border-radius: 15px;
       color: rgba(47, 56, 87, 1);
@@ -42836,7 +42844,7 @@ p.intutive-portal {
       justify-content: center;
   }
   .col-lg-6.phone-background2 {
-      background-color: rgba(249, 248, 255, 1);
+    background: rgba(238, 245, 255, 1);
       height: 100%;
       width: 500px;
       padding: 46px 16px;
@@ -42851,13 +42859,13 @@ p.intutive-portal {
     background-color: rgba(115, 103, 240, 1);
     color: white;
     font-size: 14px;
-    padding: 5px 27px;
+    padding: 7px 30px;
     border-radius: 10px;
 }
   /* phone systems end here  */
   /* transform section starts here  */
   section#transform{
-    background-image: url('../img/voitex-images/transfrom-rectangle.png');
+    background-image: url('../img/voitex-images/transfrom-image-landing-pbx-2.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
@@ -42975,7 +42983,7 @@ div#landing-pink:hover button.select-button-pbx-2, div#landing-green:hover butto
 
 }
 section#kickoff h5 {
-  background-color: rgba(255, 238, 246, 1);
+  background: rgba(222, 239, 255, 1);
   padding: 10px 10px;
   border-radius: 40px;
 }
