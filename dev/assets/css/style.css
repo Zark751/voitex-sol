@@ -40470,9 +40470,9 @@ footer{
 #section-1 .heading-wrapper .bottom-row .btn-div button {
     font-size: 16px;
     font-weight: 400;
-    background-color: #897ff9;
+    background-color: #238844;
     border-radius: 10px;
-    padding: 5px 25px;
+    padding: 5px 45px;
     color: white;
 }
 
@@ -40508,7 +40508,7 @@ footer{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(316deg, #A59DFF, #EBF9FF);
+    background:linear-gradient(316deg, #238844 -40%, #FFF 95%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 92%, 0 100%);
     z-index: 1;
 }
@@ -40583,7 +40583,7 @@ footer{
 #section-2 .btn-div button {
     font-size: 16px;
     font-weight: 400;
-    background-color: #897ff9;
+    background-color: #238844;
     border-radius: 10px;
     padding: 5px 25px;
     color: white;
@@ -40615,13 +40615,13 @@ footer{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(316deg, #A59DFF, #EBF9FF);
+    background:linear-gradient(226deg, #238843 -25%, #FFF);
     clip-path: polygon(0 10%, 50% 5%, 100% 0, 100% 100%, 0% 100%);
     z-index: 1;
 }
 
 #section-3 .image-wrapper img {
-    width: 60% !important;
+    width: 50% !important;
     float: none;
 }
 
@@ -40634,7 +40634,7 @@ footer{
 #section-3 .btn-div button {
     font-size: 16px;
     font-weight: 400;
-    background-color: #897ff9;
+    background-color: #238844;
     border-radius: 10px;
     padding: 5px 25px;
     color: white;
@@ -40663,7 +40663,7 @@ footer{
 #section-4 .btn-div button {
     font-size: 16px;
     font-weight: 400;
-    background-color: #897ff9;
+    background-color: #238844;
     border-radius: 10px;
     padding: 5px 25px;
     color: white;
@@ -40739,7 +40739,7 @@ footer{
 }
 
 #section-6 .card-wrapper {
-    background-color: #EDFFF4;
+    background-color: #F4F9F6;
     border-radius: 15px;
     padding: 50px 20px;
 }
@@ -40798,11 +40798,11 @@ footer{
 #section-7 .btn-div .plans-btn {
     font-size: 16px;
     font-weight: 400;
-    background-color: #7367f0;
+    background-color: #238844;
     border-radius: 10px;
     padding: 5px 25px;
     color: #fff;
-    border: 2px solid #7367f0;
+    border: 2px solid #238844;
     margin-bottom: 40px;
     transition: 0.3s;
 }
@@ -40810,10 +40810,15 @@ footer{
 #section-7 .card-wrapper .book-marker {
     display: flex;
     justify-content: end;
+    position: relative;
 }
 
 #section-7 .card-wrapper .book-marker i {
     padding-right: 5px;
+    position: absolute ;
+}
+#section-7 .card-wrapper .price-top{
+  margin-top: 1rem  ;
 }
 
 #section-7 .green-pricing .bi-bookmark-star-fill::before {
@@ -40869,11 +40874,9 @@ footer{
 
 
 #section-8 {
-    padding: 70px;
     margin-bottom: 30px;
-    background: linear-gradient(292.68deg, #EBF9FF 43.81%, #A59DFF 179.26%);
 }
-
+#section-
 #section-8 .card-wrapper h3 {
     font-size: 36px;
     color: #000
@@ -41778,7 +41781,7 @@ section#also-like {
 /* header section starts here  */
 
 .green{
-  color: #28C76F;
+  color: #238844;
 }
 .yellow{
   color: #FFA551;
