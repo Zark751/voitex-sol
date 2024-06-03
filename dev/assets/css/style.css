@@ -42048,6 +42048,16 @@ body{
 }
 /* voitex read blogs start here */
 /* voitex-blogs-read-main-page starts here  */
+.navbar-expand-lg:not(.hover-none) .navbar-nav .dropdown-menu a {
+  color: rgba(47, 56, 87, 1) !important;
+}
+a.nav-link.dropdown-toggle.show:hover:after {
+  transform: unset;
+
+}
+a.nav-link.dropdown-toggle.show:after {
+  transform: rotate(45deg);
+}
 section.wrapper.overflow-hidden.read-blog{
   background: linear-gradient(135deg, hsla(202, 100%, 98%, 1) 25%, hsla(245, 83%, 80%, 1) 100%);
   height: auto;
