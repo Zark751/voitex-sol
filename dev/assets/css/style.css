@@ -53299,7 +53299,34 @@ ul.comprehensive-list-2 p span {
   font-weight: 600;
   color: #2F3857;
 }
+section#comprehensive-container ul.comprehensive-list {
+  column-count: 2;
+  text-align: center;
+}
+section#comprehensive-container ul.comprehensive-list li p span {
+  text-align: center !important;
+  margin: 0 auto;
 
+}
+section#comprehensive-container ul.comprehensive-list li {
+  background-color: white;
+  border-radius: 15px;
+}
+
+  span.com-li {
+      padding: 8px 15px;
+      color: black;
+      font-size: 15px;
+  }
+  ul.comprehensive-list {
+      list-style: none;
+  }
+  ul.comprehensive-list p span {
+    display: table;
+    font-size: 12px;
+    font-weight: 600;
+    color:#2F3857;
+  }
 span.com-li {
   background-color: white;
   padding: 8px 15px;
@@ -53331,7 +53358,9 @@ button.demo-now {
   width: auto;
   height: auto;
 }
-
+header ul.navbar-nav li.nav-item.dropdown ul.dropdown-menu li a:hover {
+  color: #897ff9 !important;
+}
 /* comprehensive container ends here */
 /* phone systems start here  */
 .learn-more-button-2 {
@@ -53527,6 +53556,8 @@ button.select-button-pbx {
   width: 170px;
   border-radius: 10px;
 }
+div#landing-pink:hover button.select-button-pbx-2, div#landing-green:hover button.select-button-pbx-2, div#landing-yellow:hover button.select-button-pbx {
+  background: rgba(115, 103, 240, 1);
 
 div#landing-pink:hover button.select-button-pbx-2,
 div#landing-green:hover button.select-button-pbx-2,
@@ -53704,6 +53735,71 @@ section#phone-system ul.telephone-specs-2 {
   }
 }
 
+p.last-li {
+  margin-top: 45px;
+}
+section#phone-system {
+  padding: 40px 10px;
+}
+.container.transform-container {
+  padding: 155px 10px;
+}
+.col-md-4.pink-color-col {
+  margin: 10px 42px;
+}
+.col-md-4.green-color-col {
+  margin: 10px 60px;
+}
+.col-md-4.yellow-color-col {
+  margin: 11px 40px;
+}
+section#kickoff p {
+font-size: 13px;
+}
+ul.comprehensive-list-2 {
+  list-style: none;
+  padding-left: 10px;
+  margin-left: -40px;
+}
+}
+@media only screen and (max-width:800px) {
+  .purple-flexible.container {
+    padding: 50px;
+}
+
+.com-image {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+section#kickoff h2 {
+  font-size: 17px;
+}
+ul.comprehensive-list-2 {
+  list-style: none;
+  padding-left: 10px;
+  margin-left: 0px;
+}
+.rectnagle-row-image {
+  display: flex;
+  justify-content: center;
+}
+section#try-voitex2 .try-voitex-button {
+  display: flex;
+  justify-content: center;
+}
+br{
+  display: none;
+}
+
+}
+@media only  screen and (max-width:480px) {
+  #inner-row1.row {
+    align-items: center !important;
+    display: table;
+    margin: auto;
+  }
+}
 @media only screen and (max-width:800px) {
   .purple-flexible.container {
     padding: 50px;
@@ -55214,4 +55310,13 @@ input.form-control.footer-form {
     filter: invert(100%) brightness(1079%) contrast(100%);
     margin-right: 10px;
   }
+}
+
+.navbar ul.navbar-nav a.nav-link.dropdown-toggle::after {
+  transform: rotate(-90deg);
+}
+
+.navbar ul.navbar-nav a.nav-link.dropdown-toggle:hover:after {
+  transform: rotate(0deg);
+  transition: 0.5s;
 }
