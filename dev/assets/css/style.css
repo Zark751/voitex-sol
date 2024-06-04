@@ -50806,6 +50806,9 @@ img.card-img-top {
 #secti-5 p {
   color: #2f3857;
 }
+#secti-5 p{
+  font-size: 14px;
+}
 
 
 
@@ -51696,6 +51699,7 @@ ul.api-article-header li {
 
 #s-4 .text-wrapper p a {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 #s-4 li {
@@ -51895,7 +51899,7 @@ textarea.form-control::placeholder {
 }
 
 #sec-3 .icon-1 span {
-  background-color: #f4fcff;
+  background-color: #efedff;
   padding: 10px;
   border-radius: 10px;
 }
