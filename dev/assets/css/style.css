@@ -6750,7 +6750,7 @@ fieldset:disabled .btn {
   }
 
   .navbar-expand-lg .navbar-toggler {
-    display: none;
+    display: contents;
   }
 
   .navbar-expand-lg .offcanvas {
@@ -49894,7 +49894,7 @@ h1 {
 
 h2 {
   color: #000;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 40px;
 }
 
@@ -52808,15 +52808,15 @@ section#sec9 {
 }
 
 .sec9-heading {
-  padding: 20px;
+  padding: 0px 0px 20px 0px;
 }
 
 div#innerrow-sec9-1 {
-  padding: 20px;
+  padding: 0px 0px 20px 0px;
 }
 
 div#innerrow-sec9-2 {
-  padding: 20px;
+  padding: 0px 0px 20px 0px;
 }
 
 section#sec10 {
@@ -53497,7 +53497,7 @@ div#landing-green {
   width: 100%;
   border-top: 8px solid rgb(54 139 255);
   background-color: rgba(248, 249, 250, 1);
-  margin: 10px;
+  margin: 0px 0px 0px 20px;
 
 
 }
@@ -53686,6 +53686,9 @@ section#phone-system ul.telephone-specs-2 {
   section#kickoff h2 {
     font-size: 23px;
   }
+  .nav-link {
+    font-size: 15px !important;
+}
 
   .feature-rich {
     padding: 70px 10px;
@@ -53724,12 +53727,6 @@ section#phone-system ul.telephone-specs-2 {
   .col-md-4.yellow-color-col {
     margin: 11px 40px;
   }
-
-  section#kickoff p {
-    font-size: 13px;
-  }
-
-
 p.last-li {
   margin-top: 45px;
 }
@@ -53749,7 +53746,7 @@ section#phone-system {
   margin: 11px 40px;
 }
 section#kickoff p {
-font-size: 13px;
+font-size: 13px !important;
 }
 ul.comprehensive-list-2 {
   list-style: none;
@@ -53759,6 +53756,13 @@ ul.comprehensive-list-2 {
 }
 
 @media only screen and (max-width:800px) {
+  .feature-rich .row.pt-5.pb-5.aos-init.aos-animate {
+    padding: 0px !important;
+}
+section#sec9 {
+  text-align: center;
+  padding: 0px 0px;
+}
   .purple-flexible.container {
     padding: 50px;
 }
@@ -53768,8 +53772,8 @@ ul.comprehensive-list-2 {
   justify-content: center;
   margin: 20px;
 }
-section#kickoff h2 {
-  font-size: 17px;
+section#kickoff .row h2 {
+  font-size: 17px !important;
 }
 ul.comprehensive-list-2 {
   list-style: none;
@@ -53790,11 +53794,30 @@ br{
 
 }
 @media only  screen and (max-width:480px) {
+  div#landing-pink {
+    margin: 0px 0px 20px 0px;
+}
+div#landing {
+  margin: 0px 0px 20px 0px ;
+}
+div#landing-green {
+  margin: 0px 0px 20px 0px;
+}
   #inner-row1.row {
     align-items: center !important;
     display: table;
     margin: auto;
   }
+  section.wrapper-pbx.overflow-hidden.landing-pbx button.learn-more-button-2 {
+    display: table;
+    margin: 0 auto;
+}
+}
+@media only screen and (max-width:360px) {
+  .row.phone {
+    margin: 47px 0px;
+}
+  
 }
 @media only screen and (max-width:800px) {
   .purple-flexible.container {
@@ -53806,11 +53829,6 @@ br{
     justify-content: center;
     margin: 20px;
   }
-
-  section#kickoff h2 {
-    font-size: 17px;
-  }
-
   .rectnagle-row-image {
     display: flex;
     justify-content: center;
@@ -54231,8 +54249,8 @@ button.demo-now {
   background-color: rgba(115, 103, 240, 1);
   color: white;
   font-size: 15px;
-  border-radius: 10x;
-  padding: 6px 20px;
+  border-radius: 15px;
+  padding: 10px 20px;
 }
 
 /* voitex-landing-page ends here  */
@@ -54252,7 +54270,15 @@ button.demo-now {
     font-size: 55px;
     line-height: 60px;
   }
-
+  .wrapper-communication .learn-more {
+    margin: 0px 0px 5px 0px;
+}
+button.demo-now {
+  margin: 0px 0px 6px 0px;
+}
+#sec8 .slider {
+  width: 100%;
+}
   .api h2 {
     font-size: 18px !important;
   }
