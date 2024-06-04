@@ -42780,16 +42780,27 @@ ul.comprehensive-list-2 p span {
   font-weight: 600;
   color:#2F3857;
 }
+section#comprehensive-container ul.comprehensive-list {
+  column-count: 2;
+  text-align: center;
+}
+section#comprehensive-container ul.comprehensive-list li p span {
+  text-align: center !important;
+  margin: 0 auto;
+
+}
+section#comprehensive-container ul.comprehensive-list li {
+  background-color: white;
+  border-radius: 15px;
+}
+
   span.com-li {
-      background-color: white;
       padding: 8px 15px;
-      border-radius: 15px;
       color: black;
       font-size: 15px;
   }
   ul.comprehensive-list {
       list-style: none;
-      padding-left: 10px;
   }
   ul.comprehensive-list p span {
     display: table;
@@ -42980,7 +42991,7 @@ button.select-button-pbx {
   border-radius: 10px;
 }
 div#landing-pink:hover button.select-button-pbx-2, div#landing-green:hover button.select-button-pbx-2, div#landing-yellow:hover button.select-button-pbx {
-  background-color: rgba(54, 139, 255, 1);
+  background: rgba(115, 103, 240, 1);
   color: white;
   transition: .5s;
 }
@@ -43118,11 +43129,17 @@ section#phone-system {
 section#kickoff p {
 font-size: 13px;
 }
+ul.comprehensive-list-2 {
+  list-style: none;
+  padding-left: 10px;
+  margin-left: -40px;
+}
 }
 @media only screen and (max-width:800px) {
   .purple-flexible.container {
     padding: 50px;
 }
+
 .com-image {
   display: flex;
   justify-content: center;
@@ -43130,6 +43147,11 @@ font-size: 13px;
 }
 section#kickoff h2 {
   font-size: 17px;
+}
+ul.comprehensive-list-2 {
+  list-style: none;
+  padding-left: 10px;
+  margin-left: 0px;
 }
 .rectnagle-row-image {
   display: flex;
@@ -43145,6 +43167,11 @@ br{
 
 }
 @media only  screen and (max-width:480px) {
+  #inner-row1.row {
+    align-items: center !important;
+    display: table;
+    margin: auto;
+  }
   ul.comprehensive-list-2 {
     margin-left: 0px;
 } 
