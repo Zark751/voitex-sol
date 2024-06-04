@@ -53358,7 +53358,9 @@ button.demo-now {
   width: auto;
   height: auto;
 }
-
+header ul.navbar-nav li.nav-item.dropdown ul.dropdown-menu li a:hover {
+  color: #897ff9 !important;
+}
 /* comprehensive container ends here */
 /* phone systems start here  */
 .learn-more-button-2 {
@@ -55308,4 +55310,13 @@ input.form-control.footer-form {
     filter: invert(100%) brightness(1079%) contrast(100%);
     margin-right: 10px;
   }
+}
+
+.navbar ul.navbar-nav a.nav-link.dropdown-toggle::after {
+  transform: rotate(-90deg);
+}
+
+.navbar ul.navbar-nav a.nav-link.dropdown-toggle:hover:after {
+  transform: rotate(0deg);
+  transition: 0.5s;
 }
