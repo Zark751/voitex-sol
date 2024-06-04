@@ -54823,11 +54823,11 @@ button.demo-now {
     width: 27% !important;
   }
 
-  #section-8 .btn-div .pink-btn,
+  /* #section-8 .btn-div .pink-btn,
   #section-8 .btn-div .purple-btn {
     font-size: 13px;
     padding: 5px 16px;
-  }
+  } */
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -54839,11 +54839,11 @@ button.demo-now {
 /*-----------------------------------------------------------------------------------------------------*/
 @media (max-width: 360px) {
 
-  #section-8 .btn-div .pink-btn,
+  /* #section-8 .btn-div .pink-btn,
   #section-8 .btn-div .purple-btn {
     font-size: 13px;
     padding: 5px 9px;
-  }
+  } */
 }
 
 /* landing-sms  ends here*/
