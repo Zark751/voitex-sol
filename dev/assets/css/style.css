@@ -51393,11 +51393,6 @@ footer {
   padding-top: 120px;
   margin-bottom: 100px;
 }
-
-#sect-3 .text-wrapper h2 {
-  /* margin-bottom: 4.5rem; */
-}
-
 #sect-3 .image-wrapper img {
   width: 100% !important;
   float: none;
@@ -53558,7 +53553,7 @@ button.select-button-pbx {
 }
 div#landing-pink:hover button.select-button-pbx-2, div#landing-green:hover button.select-button-pbx-2, div#landing-yellow:hover button.select-button-pbx {
   background: rgba(115, 103, 240, 1);
-
+}
 div#landing-pink:hover button.select-button-pbx-2,
 div#landing-green:hover button.select-button-pbx-2,
 div#landing-yellow:hover button.select-button-pbx {
@@ -53733,7 +53728,7 @@ section#phone-system ul.telephone-specs-2 {
   section#kickoff p {
     font-size: 13px;
   }
-}
+
 
 p.last-li {
   margin-top: 45px;
@@ -53762,6 +53757,7 @@ ul.comprehensive-list-2 {
   margin-left: -40px;
 }
 }
+
 @media only screen and (max-width:800px) {
   .purple-flexible.container {
     padding: 50px;
@@ -55311,12 +55307,11 @@ input.form-control.footer-form {
     margin-right: 10px;
   }
 }
-
-.navbar ul.navbar-nav a.nav-link.dropdown-toggle::after {
+.navbar ul.navbar-nav .nav-link.dropdown-toggle::after {
   transform: rotate(-90deg);
 }
 
-.navbar ul.navbar-nav a.nav-link.dropdown-toggle:hover:after {
+.navbar ul.navbar-nav .nav-link.dropdown-toggle:hover:after {
   transform: rotate(0deg);
   transition: 0.5s;
 }
