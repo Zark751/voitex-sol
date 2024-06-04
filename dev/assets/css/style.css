@@ -50806,6 +50806,9 @@ img.card-img-top {
 #secti-5 p {
   color: #2f3857;
 }
+#secti-5 p{
+  font-size: 14px;
+}
 
 
 
@@ -51467,6 +51470,7 @@ footer {
 
 #sect-5 .image-wrap img {
   width: 100%;
+  margin-top: 30px;
 }
 
 #sect-5 .btn-div button {
@@ -51695,6 +51699,7 @@ ul.api-article-header li {
 
 #s-4 .text-wrapper p a {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 #s-4 li {
@@ -51894,7 +51899,7 @@ textarea.form-control::placeholder {
 }
 
 #sec-3 .icon-1 span {
-  background-color: #f4fcff;
+  background-color: #efedff;
   padding: 10px;
   border-radius: 10px;
 }
@@ -54941,11 +54946,11 @@ button.demo-now {
     width: 27% !important;
   }
 
-  #section-8 .btn-div .pink-btn,
+  /* #section-8 .btn-div .pink-btn,
   #section-8 .btn-div .purple-btn {
     font-size: 13px;
     padding: 5px 16px;
-  }
+  } */
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -54957,11 +54962,11 @@ button.demo-now {
 /*-----------------------------------------------------------------------------------------------------*/
 @media (max-width: 360px) {
 
-  #section-8 .btn-div .pink-btn,
+  /* #section-8 .btn-div .pink-btn,
   #section-8 .btn-div .purple-btn {
     font-size: 13px;
     padding: 5px 9px;
-  }
+  } */
 }
 
 /* landing-sms  ends here*/
