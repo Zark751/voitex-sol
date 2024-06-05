@@ -49923,13 +49923,6 @@ a.color-telephone {
   border-radius: 10px;
 }
 
-.bi-telephone-fill::before {
-  content: "\f5b4";
-  color: white;
-  text-align: center;
-  margin-right: 15px;
-  margin-top: 15px;
-}
 
 section.wrapper.overflow-hidden.main-page {
   background: hsla(202, 100%, 98%, 1);
@@ -50190,13 +50183,6 @@ a.color-telephone {
   border-radius: 10px;
 }
 
-.bi-telephone-fill::before {
-  content: "\f5b4";
-  color: white;
-  text-align: center;
-  margin-right: 15px;
-  margin-top: 15px;
-}
 
 section.wrapper.torah-umesroh.overflow-hidden {
   background: linear-gradient(135deg, hsla(202, 100%, 98%, 1) 25%, hsla(245, 83%, 80%, 1) 100%);
@@ -50418,14 +50404,6 @@ a.color-telephone {
   height: 50px;
   width: 50px;
   border-radius: 10px;
-}
-
-.bi-telephone-fill::before {
-  content: "\f5b4";
-  color: white;
-  text-align: center;
-  margin-right: 15px;
-  margin-top: 15px;
 }
 
 section.wrapper.detailed.overflow-hidden {
@@ -51777,8 +51755,7 @@ a.color-telephone {
   content: "\f5b4";
   color: white;
   text-align: center;
-  margin-right: 15px;
-  margin-top: 15px;
+  margin: 0 !important;
 }
 
 .pink {
@@ -52229,14 +52206,6 @@ a.color-telephone {
   height: 50px;
   width: 50px;
   border-radius: 10px;
-}
-
-.bi-telephone-fill::before {
-  content: "\f5b4";
-  color: white;
-  text-align: center;
-  margin-right: 15px;
-  margin-top: 15px;
 }
 
 section.wrapper.overflow-hidden.blogs-main {
@@ -55358,4 +55327,9 @@ input.form-control.footer-form {
 .navbar ul.navbar-nav .nav-link.dropdown-toggle:hover:after {
   transform: rotate(0deg);
   transition: 0.5s;
+}
+.social .bi::before,.social [class*=" bi-"]::before{
+  line-height: unset !important;
+  vertical-align: unset !important;
+  font-style: unset !important;
 }
